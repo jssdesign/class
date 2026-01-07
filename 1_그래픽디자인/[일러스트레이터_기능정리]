@@ -76,12 +76,23 @@ Pannel패널 : 오른쪽 도구의 세부내용 설정
 2. Ctrl+Shift+O
 3. 또는 개체에 오른쪽버튼 - Create Outline
 
+[오프셋 패스]
+ - 메뉴Object - Path - Offset Path
+ - 오브젝트에 간격을 지정하여 외곽처리가능한 오브젝트로 복사
+
+[문서에 이미지 가져오기]
+1) 일러스트파일에서 메뉴File - Place
+2) 이미지 파일선택
+3) 마우스로 클릭 또는 드래그하여 이미지삽입
+4) 상단 Control바 - Embed 버튼
+
+[오브젝트변형]
+1) 오브젝트선택 후 메뉴Object - Envlope Distort - Make Width Warp
+2) 샘플을 선택후 속성지정
+3) 메뉴Object - Expand (속성깨기)
+4) 단순 도형에 사다리꼴변형 - FreeTransform툴(선택적반영)
 
 
 
-
-
-
- 
 
 
