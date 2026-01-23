@@ -36,7 +36,7 @@ js 주석 :         // 주석내용
 
 [ 테두리, 선 - border ]
     border:3px solid #000;  (방향지정없으면 전체방향에 선적용)
-    border-방향  (특정방향 top, right, bottom, left 에 선적용)
+    border-방향;  (특정방향 top, right, bottom, left 에 선적용)
     선의 속성
         - 선 두께  px
         - 선 종류  solid , dashed
