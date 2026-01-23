@@ -34,6 +34,27 @@ js 주석 :         // 주석내용
       margin-방향  (특정방향에 여백)
 
 
+[ 테두리, 선 - border ]
+    border:3px solid #000;  (방향지정없으면 전체방향에 선적용)
+    border-방향  (특정방향 top, right, bottom, left 에 선적용)
+    선의 속성
+        - 선 두께  px
+        - 선 종류  solid , dashed
+        - 선 색상  헥사코드, rgb
+
+
+[ 공통레이아웃 ]
+    - header, footer
+
+일반적인 index.html
+    header
+    main_bn
+    main
+    footer
+
+
+[ 블럭요소를 변환]
+1) display:inline-block;  (인라인방식으로 배열, 블럭속성 유지)
 
 
 
