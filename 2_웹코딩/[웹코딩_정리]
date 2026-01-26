@@ -53,6 +53,37 @@ js 주석 :         // 주석내용
     footer
 
 
+[블럭요소의 사이즈 기준] 
+ - 가로:100%, 세로:내용만큼
+ - width, height 속성
+ - 실제사이즈에 padding, border를 코딩하여 구현하면
+   실제기재된 사이즈에 포함하여 보여져서 사이즈계산이 힘들다.
+ - box-sizing:border-box;  코딩을 추가하여 사이즈를 쉽게 구현
+
+
+[ 배경이미지 background]
+ ▶배경이미지 기본속성
+   (repeat반복, 왼쪽상단을 기준으로 보임, 블럭요소의 내용에 영향X)
+ ▶url속성에는 현재문서를 기준으로 경로지정
+ ▶background-repeat 반복 기본속성, no-repeat반복X
+ ▶background-position 블럭요소 공간내의 이미지의 위치,
+    가로중앙+세로중앙 center
+ ▶background-attachment: fixed; 스크롤해도 배경이미지 고정
+ ▶background 속성으로 image,repeat,position,attachment
+    배경속성을 한번에 지정가능
+ ▶background-size 속성은 background로 묶을수 X
+     cover - 화면에 빈곳없이 배치
+     contain - 비율에 맞게 배치, 이미지가 비워보일수 있다. 
+
+
+[ CSS 우선순위]
+ *   전체선택자
+ #   아이디선택자   1000
+ .    클래스 선택자   100
+ h1 태그선택자      10
+
+
+
 [ 블럭요소를 변환]
 1) display:inline-block;  (인라인방식으로 배열, 블럭속성 유지)
 
