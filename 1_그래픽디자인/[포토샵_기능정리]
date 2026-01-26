@@ -108,5 +108,25 @@ Ctrl+Shift+i : 선택영역 반전
      이후 필터처리후 레이어에 스마트필터기능이 생성됨.
 
 
+[ 이미지 슬라이스 ]
+ ① 완료된 이미지에 나눌부분은 눈금자의 가이드로 구분한다.
+ ② 왼쪽 툴박스의 크롭툴을 눌러 슬라이스툴로 변경한다.
+ ③ 상단의 Slice Frome Guide 버튼을 눌러 영역 나눔.
+ ④ 메뉴File - Export - Save for Web 선택
+ ⑤ 저장할 파일유형을 지정, 저장경로를 유의해서 Save.
+ ⑥ 저장옵션지정 : 파일이름, Image Only, Defalt Setting 
+
+
+[ gif 움직이는 이미지 ]
+ ① 메뉴Window - Timeline 패널 보이게한다.
+ ② 왼쪽하단의 Frame 보기 버튼으로 변경
+ ③ 프레임을 복사하여 레이어별로 이미지를 보이게한다.
+ ④ 프레임하단의 시간을 조정하여 적당한 속도지정
+ ⑤ 메뉴File - Export - Save for Web 선택
+ ⑥ 저장할 파일유형을 지정, 저장경로를 유의해서 Save.
+ ⑦ 저장옵션지정 : 파일이름, Image Only, Defalt Setting 
+
+
+
 
 
