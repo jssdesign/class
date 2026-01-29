@@ -82,22 +82,18 @@ js 주석 :         // 주석내용
  h1 태그선택자      10
 
 
-[ 블럭요소를 변환]
-1) display:inline-block;  (인라인방식으로 배열, 블럭속성 유지)
-
-
-
-
 [ CSS소스를 웹문서(HTML)에 적용]
   1) 태그에 인라인방식으로 적용
   2) style태그를 따로 선언하여 css코딩
   3) 외부css파일을 link 연결하여 여러페이지에 적용
+
 
 [ 링크 속성 ]
 <a href="절대주소">내용</a>  : 연결경로는 URL
 <a href="상대주소">내용</a>  : 동일폴더 웹문서
 <a href="경로" target="_blank" >내용</a>
    target의 기본속성은 target="_self" : 현재창열기
+
 
 [a태그의 앵커속성] : 문서내에 a태그로 위치이동
   - 웹문서의 공간을 id(아이디)로 선언한다.
@@ -106,10 +102,12 @@ js 주석 :         // 주석내용
   - css문서에 앵커이동시 부드럽게 이동
      html { scroll-behavior: smooth; } 
 
+
 [ 마진top 요소의 특징]
   - 웹문서 첫번째 블럭요소의 하위요소에 margin-top 속성을 지정
      : 하위요소에 적용되지않고 상위요소에 margin-top적용
   - 블럭요소간 margin으로 여백지정시 서로 이웃하는 부분은 사이즈가 겹쳐진다.
+
 
 [가상선택자]
   - 지정된 요건이 만족되면 css적용, css선택자에 공백없이 코드선언
@@ -121,7 +119,39 @@ js 주석 :         // 주석내용
      :last-child	같은태그로 나열된 마지막 요소
 
 
+[ 기존 블럭요소, 인라인요소를 변환]
+1) display:inline-block;  (인라인방식으로 배열, 블럭속성 유지, 태그에 직접 선언)
+2) display:block;	(인라인요소를 블럭속성으로 치환, 블럭방식 변환)
+3) display:none;	(해당요소를 제거하여 구현X)
+4) display:flex; 	(플렉시블 속성으로 다양한 배열 구현, 상위요소태그에 선언)
 
 
+[그림자효과]
+ 1) box-shadow : 가로 세로 흐림정도 그림자색;
+ 2) text-shadow : 가로 세로 feather 그림자색;
+
+
+[ 그라디언트 배경]
+  1) background:linear-gradient(각도deg, 색상1, 색상2, 색상3);
+  2) background:radial-gradient(색상1, 색상2, 색상3);
+
+
+[ 종횡비]
+  aspect-ratio:1/1; 
+  overflow:hidden;
+
+
+[ background-size ]
+  background-size: auto; 
+    - 이미지 실제크기(기본값)
+  background-size: contain;
+    - 공간안에 배경이미지를 확대/축소
+      (비율안맞으면 빈영역 보임)
+  background-size: cover;  
+    - 공간을 빈영역 없이 모두 채움
+  background-size: 100px 100px;  
+    - 배경이미지 사이즈 조정
+  background-size: 70% 70%;  
+    - 공간을 기준으로 배율조정
 
 
