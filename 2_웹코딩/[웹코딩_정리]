@@ -155,3 +155,19 @@ js 주석 :         // 주석내용
     - 공간을 기준으로 배율조정
 
 
+
+[애니메이션 효과]
+1) @keyframes 선언
+@keyframes 이름 {
+    0% { 시작지점의 움직임요소 }
+    100% { 종료지점의 움직임요소 }
+}
+
+2) 움직일 대상에 animation속성지정
+animation: name duration timing-function delay iteration-count direction fill-mode;
+  - name   : @keyframes이름 *
+  - duration  : 실행시간 *
+  - timing-function  : 가속 (ease, linear가속없음)
+  - delay  : 시작전 지연시간
+  - iteration-count  : 실행회수(무한 infinite)
+  - direction  : 반복실행 방향 (normal, reverse, 
