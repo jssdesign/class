@@ -155,7 +155,6 @@ js 주석 :         // 주석내용
     - 공간을 기준으로 배율조정
 
 
-
 [애니메이션 효과]
 1) @keyframes 선언
 @keyframes 이름 {
@@ -171,3 +170,25 @@ animation: name duration timing-function delay iteration-count direction fill-mo
   - delay  : 시작전 지연시간
   - iteration-count  : 실행회수(무한 infinite)
   - direction  : 반복실행 방향 (normal, reverse, 
+
+
+[ 트랜스폼 : 다양한 변형 ]
+  선택자 { transform:속성값; } 
+  - translate(가로, 세로);
+  - translateX(가로);
+  - translateY(세로); 
+  - scale(가로, 세로); 
+  - scaleX(가로);
+  - scaleY(세로);
+  - rotate(각도deg);
+  - skew(가로, 세로);
+  - skewX();
+  - skewY();
+
+
+
+
+
+
+
+.
