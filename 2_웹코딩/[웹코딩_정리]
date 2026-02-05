@@ -186,6 +186,24 @@ animation: name duration timing-function delay iteration-count direction fill-mo
   - skewY();
 
 
+[다양한 웹폰트 적용]
+  1) css폴더에 font.css파일을 생성하여 사용될 웹폰트 선언.
+  2) 웹문서에 link되는 css파일에 @import방식으로 연결.
+      @import url(font.css);
+
+
+[반응형웹 Media Query]
+  1) 브레이크 포인트 (1380 또는 1024, 760 사이즈를 주로 기준점으로 지정한다.)
+  2) 브레이크 포인트 : 그리드사이즈를 기점으로 지정할 수 있다.
+  3) 미디어쿼리 선언
+       @media screen and (해상도) {
+	변경내용
+       }
+
+       @media screen and (max-width:1380px) {
+	.inner { width:96%; }
+       }
+
 
 
 
