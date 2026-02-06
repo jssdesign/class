@@ -205,7 +205,19 @@ animation: name duration timing-function delay iteration-count direction fill-mo
        }
 
 
+[ 레이아웃관련 CSS 정리 ]
+display : 인라인블럭(가로배열)
+display : block (인라인요소를 상단 블럭요소 공간맞춤)
+display : flex (가로배열)
+  1) justify-content  (가로 배치방법)
+  2) align-item (세로 배치방법)
+  3) flex-wrap  (줄바꿈)
 
+position : 위치지정
+   fixed (브라우저기준, 스크롤시 위치고정)
+   relative (기준, 상위요소)
+   absolute (위치 - left, bottom, top, right)
+   static (기본속성)
 
 
 
